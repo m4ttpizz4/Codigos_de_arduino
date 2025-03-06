@@ -1,6 +1,6 @@
 void setup(){
-  pinMode(7, OUTPUT);
-  pinMode(8, INPUT);
+  pinMode(7, OUTPUT); //Led
+  pinMode(8, INPUT); //Botão
 }
 
 int estado_led = 0;
