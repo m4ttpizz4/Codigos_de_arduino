@@ -1,11 +1,13 @@
-int pinoEcho = 2, pinoTrig = 3;
+int pinoEcho = 2, pinoTrig = 3; //Pino Echo e Trig, sendo Echo a entrada e Trig a saída
 
+//função setup:
 void setup(){
   pinMode(pinoEcho, INPUT);
   pinMode(pinoTrig, OUTPUT);
   Serial.begin(9600);
 }
 
+//função loop:
 void loop(){
   digitalWrite(pinoTrig, HIGH);
   delayMicroseconds(10);
